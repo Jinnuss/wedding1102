@@ -1,4 +1,5 @@
 .container {
+    position: relative;
     background-image: url('./imgs/pexels-karolina-grabowska-4622064.jpg');
     background-repeat: no-repeat;
     height: 100vh;
@@ -6,15 +7,23 @@
     background-size: cover;
 }
 
+.container .content {
+    background-color: white;
+    opacity: 0.5;
+    height: 100vh;
+    position: absolute;
+    width: 100vw;
+}
+
 .font1 {
     font-family: "Love Light", serif;
-    font-weight: 550;
+    font-weight: 500;
     font-style: normal;
 }
 
 .font2 {
     font-family: "Ms Madi", serif;
-    font-weight: 550;
+    font-weight: 500;
     font-style: normal;
     margin-bottom: 10px;
 }
